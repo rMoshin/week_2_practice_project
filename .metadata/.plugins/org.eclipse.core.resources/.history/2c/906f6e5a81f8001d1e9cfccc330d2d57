@@ -1,0 +1,23 @@
+package exercise1;
+
+public class Singers {
+	private int singerID;
+	private String singerName;
+	private String singerAddress;
+	private String singerBirthDate;
+	private int noOfAlbumsPublished;
+	
+	public Singers()
+	{
+		singerID = 0;
+		singerName = "Hiroko Moriguhi";
+		singerAddress = "Japan";
+		singerAddress = ""
+	}
+	
+	public Singers(int singerID)
+	{
+		
+	}
+
+}

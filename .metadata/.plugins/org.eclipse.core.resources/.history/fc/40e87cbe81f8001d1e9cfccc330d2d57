@@ -43,21 +43,13 @@ public class Singers {
 		noOfAlbumsPublished = 10;
 	}
 	
-	public Singers(int singerID, String singerName, String singerAddress, String singerBirthDate)
+	public Singers(int singerID, String singerName, String singerAddress, )
 	{
 		this.singerID = singerID;
 		this.singerName = singerName;
 		this.singerAddress = singerAddress;
-		this.singerBirthDate = singerBirthDate;
+		singerAddress = "13th June 1968";
 		noOfAlbumsPublished = 10;
 	}
 	
-	public Singers(int singerID, String singerName, String singerAddress, String singerBirthDate, int noOfAlbumsPublished)
-	{
-		this.singerID = singerID;
-		this.singerName = singerName;
-		this.singerAddress = singerAddress;
-		this.singerBirthDate = singerBirthDate;
-		this.noOfAlbumsPublished = noOfAlbumsPublished;
-	}
 }

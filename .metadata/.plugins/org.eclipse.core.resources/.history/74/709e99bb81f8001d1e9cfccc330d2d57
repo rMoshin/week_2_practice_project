@@ -12,7 +12,7 @@ public class Singers {
 		singerID = 0;
 		singerName = "Hiroko Moriguhi";
 		singerAddress = "Japan";
-		singerBirthDate = "13th June 1968";
+		singerAddress = "13th June 1968";
 		noOfAlbumsPublished = 10;
 	}
 	
@@ -21,7 +21,7 @@ public class Singers {
 		this.singerID = singerID;
 		singerName = "Hiroko Moriguhi";
 		singerAddress = "Japan";
-		singerBirthDate = "13th June 1968";
+		singerAddress = "13th June 1968";
 		noOfAlbumsPublished = 10;
 	}
 	
@@ -30,7 +30,7 @@ public class Singers {
 		this.singerID = singerID;
 		this.singerName = singerName;
 		singerAddress = "Japan";
-		singerBirthDate = "13th June 1968";
+		singerAddress = "13th June 1968";
 		noOfAlbumsPublished = 10;
 	}
 	
@@ -39,25 +39,7 @@ public class Singers {
 		this.singerID = singerID;
 		this.singerName = singerName;
 		this.singerAddress = singerAddress;
-		singerBirthDate = "13th June 1968";
+		singerAddress = "13th June 1968";
 		noOfAlbumsPublished = 10;
-	}
-	
-	public Singers(int singerID, String singerName, String singerAddress, String singerBirthDate)
-	{
-		this.singerID = singerID;
-		this.singerName = singerName;
-		this.singerAddress = singerAddress;
-		this.singerBirthDate = singerBirthDate;
-		noOfAlbumsPublished = 10;
-	}
-	
-	public Singers(int singerID, String singerName, String singerAddress, String singerBirthDate, int noOfAlbumsPublished)
-	{
-		this.singerID = singerID;
-		this.singerName = singerName;
-		this.singerAddress = singerAddress;
-		this.singerBirthDate = singerBirthDate;
-		this.noOfAlbumsPublished = noOfAlbumsPublished;
 	}
 }

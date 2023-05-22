@@ -58,6 +58,8 @@ public class Singers {
 		this.singerName = singerName;
 		this.singerAddress = singerAddress;
 		this.singerBirthDate = singerBirthDate;
-		this.noOfAlbumsPublished = noOfAlbumsPublished;
+		this.noOfAlbumsPublished = 10;
 	}
+	
+	
 }
