@@ -1,0 +1,9 @@
+package exercise1;
+
+public class Singers {
+	private int singerID;
+	private String singerName;
+	private string singerAddress;
+	private string singerBirthDate;
+
+}
