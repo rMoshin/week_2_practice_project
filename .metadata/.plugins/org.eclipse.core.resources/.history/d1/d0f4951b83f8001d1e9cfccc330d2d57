@@ -8,7 +8,7 @@ public class Driver {
 		System.out.println("Singer's Name: " + s.getSingerName());
 		System.out.println("Singer's Address: " + s.getSingerAddress());
 		System.out.println("Singer's Birthdate: " + s.getSingerBirthDate());
-		System.out.println("No of Albums published by Singer: " + s.getNoOfAlbumsPublished());
+		System.out.println(s.getNoOfAlbumsPublished());
 	}
 
 }

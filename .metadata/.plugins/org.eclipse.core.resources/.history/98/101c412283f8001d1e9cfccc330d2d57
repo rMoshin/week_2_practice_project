@@ -9,7 +9,7 @@ public class Singers {
 	
 	public Singers()
 	{
-		singerID = 1;
+		singerID = 0;
 		singerName = "Hiroko Moriguhi";
 		singerAddress = "Japan";
 		singerBirthDate = "13th June 1968";

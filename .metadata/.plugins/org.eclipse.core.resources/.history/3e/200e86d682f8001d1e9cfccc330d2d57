@@ -1,0 +1,10 @@
+package exercise1;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Singers s = new Singers();
+		System.out.println();
+	}
+
+}

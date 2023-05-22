@@ -1,0 +1,14 @@
+package exercise1;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Singers s = new Singers();
+		System.out.println(s.getSingerID());
+		System.out.println(s.getSingerName());
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+
+}
