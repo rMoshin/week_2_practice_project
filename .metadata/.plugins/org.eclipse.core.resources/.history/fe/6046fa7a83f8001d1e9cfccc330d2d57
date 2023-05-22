@@ -19,8 +19,6 @@ public class Driver {
 		s.setSingerBirthDate("13th December 1989");
 		s.setNoOfAlbumsPublished(15);
 		
-		System.out.println();
-		
 		System.out.println("Singer's ID: " + s.getSingerID());
 		System.out.println("Singer's Name: " + s.getSingerName());
 		System.out.println("Singer's Address: " + s.getSingerAddress());
