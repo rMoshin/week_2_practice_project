@@ -105,18 +105,4 @@ public class Singers {
 	{
 		this.noOfAlbumsPublished = noOfAlbumsPublished;
 	}
-	
-	public int getNoOfAlbumsPublished()
-	{
-		return noOfAlbumsPublished;
-	}
-	
-	public void setAll(int singerID, String singerName, String singerAddress, String singerBirthDate, int noOfAlbumsPublished)
-	{
-		this.singerID = singerID;
-		this.singerName = singerName;
-		this.singerAddress = singerAddress;
-		this.singerBirthDate = singerBirthDate;
-		this.noOfAlbumsPublished = noOfAlbumsPublished;
-	}
 }
